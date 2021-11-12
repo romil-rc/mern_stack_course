@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.upper-container {
+    width: 50%;
+    height: 10%;
+    margin: 50px auto;
+    position: relative;
+}
+
+.upper-left {
+    width: 45%;
+    height: 100%;
+    padding-top: 20px;
+}
+
+#tasks {
+    font-weight: bolder;
+    font-size: 3rem;
+}
+
+#lists {
+    font-size: 3rem;
+    margin-left: 10px;
+    opacity: 0.4;
+}
+
+.upper-right {
+    width: 30%;
+    height: 100%;
+    padding-top: 20px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#add-list {
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    top: 0px;
+    right: 0px;
+    font-size: 2.5rem;
+    opacity: 0.4;
+    padding-top: 25px;
+}
+
+#icon {
+    color: red;
+    font-size: 33px;
+    padding-top: 9px;
+}
+
+.lower-container {
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.card-1 {
+    margin: 10px;
+    padding: 10px;
+    margin-top: 10px;
+    border: 1.5px solid red;
+    height: 45vh;
+    width: 27%;
+    position: relative;
+    border-radius: 5px;
+    box-shadow: 6px 7px 9px rgb(190, 190, 190);
+}
+
+.card-heading {
+    position: absolute;
+    top: 19px;
+    right: 0;
+    font-size: 20px;
+    width: 80%;
+    text-align: left;
+    height: 15%;
+    color: red;
+    border-bottom: 2px solid rgb(190, 190, 190);
+}
+a {
+    text-decoration: none;
+    color: red;
+}
+a:hover {
+    color: crimson;
+}
+
+.sub-heading {
+    width: 90%;
+    height: 10%;
+    font-size: 20px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top: 38%;
+    text-decoration: line-through;
+}
+
+.content {
+    position:absolute;
+    top: 52%;
+    width: 90%;
+    height: 10%;
+    text-align: left;
+    font-size: 18px;
+}
+
+.check {
+    width: 15px;
+    height: 15px;
+}
+
+#ttp {
+    display: flex;
+    font-size: 45px;
+    align-items: center;
+}
+#ttp::before,
+#ttp::after {
+    content: '';
+    border: 1px solid rgb(190, 190, 190);
+    margin-right: 20px;
+    margin-left: 20px;
+    flex: 1 0 20px;
+}
+
+.middle-container {
+    position: absolute;
+    display: flex;
+    margin-left: 44%;
+    margin-top: -1%;
+    width: 6%;
+    justify-content: space-around;
+}
+
+#back {
+    font-size: 1.8rem;
+    position: absolute;
+    top: 11px;
+    left: 100%;
+    opacity: 0.7;
+}
+
+.card-2 {
+    padding: 10px;
+    margin-top: 100px;
+    margin-left: 15%;
+    border: 1.5px solid red;
+    height: 45vh;
+    width: 20%;
+    position: absolute;
+    border-radius: 5px;
+    box-shadow: 6px 7px 9px rgb(190, 190, 190);
+}
+.card-heading1 {
+    color: red;
+    margin-top: 5%;
+    margin-left: 24%;
+    padding-bottom: 4%;
+    position: absolute;
+    font-size: 20px;
+    width: 73%;
+    border-bottom: 1px solid rgb(0, 0, 0);
+}
+.sub-heading1 {
+    width: 80%;
+    font-size: 20px;
+    color: red;
+    text-align: right;
+    position: absolute;
+    top: 30%;
+    text-decoration: line-through;
+}
+.content1 {
+    position:absolute;
+    top: 43%;
+    width: 90%;
+    height: 10%;
+    text-align: center;
+    font-size: 18px;
+}
+.lower-right {
+    position: absolute;
+    padding-top: 227px;
+    height: 100%;
+    top: 0px;
+    right: 6px;
+}
+.blur {
+    filter: blur(6px);
+    -webkit-filter: blur(6px);
+}
+
+.pop-up {
+    background-color: white;
+    color: red;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    height: 25vh;
+    width: 27%;
+    border: 1.5px solid red;
+    border-radius: 10px;
+    box-shadow: 6px 7px 9px rgb(190, 190, 190);
+}
+
+#add-new {
+    font-size: 21px;
+    padding: 15px;
+}
+
+#pop-up-bar {
+    margin-bottom: 10px;
+    width: 75%;
+    height: 35px;
+    border: 1.5px solid red;
+    border-radius: 5px;
+    box-shadow: 2px 2px 3px rgb(190, 190, 190);
+}
+
+#pop-up-button {
+    width: 25%;
+    height: 20%;
+    color: white;
+    background-color: red;
+    border-radius: 20px;
+    border: none;
+    position: absolute;
+    left: 135px;
+    font-size: 20px;
+}
+
+#pop-up-button:hover {
+    background-color: crimson;
+}
