@@ -162,9 +162,11 @@ label {
     background-image: url(./assets/wakeup_image.png);
     background-repeat: no-repeat;
     background-position: -17px -87px;
-    font-family: 'Bauhaus Hv BT';
+    /* font-family: 'Bauhaus Hv BT'; */
+    font-family: 'Anton', sans-serif;
+
     color: #A983D6;
-    letter-spacing: 1.5px;
+    letter-spacing: 2px;
     text-transform: uppercase;
     font-size: 25px;
 }
@@ -175,7 +177,9 @@ label {
 
     width: fit-content;
 
-    font-family: 'Bauhaus Hv BT';
+    /* font-family: 'Bauhaus Hv BT'; */
+    font-family: 'Anton', sans-serif;
+    letter-spacing: 2px;
 
     grid-column-start: 1;
     grid-column-end: 3;
