@@ -31,22 +31,22 @@ function set_time() {
     var current_hour = new Date().getHours();
 
     var wakeUp = document.getElementById('wakeupTimeSelector');
+    var lunch = document.getElementById('lunchTimeSelector');
+    var nap = document.getElementById('napTimeSelector');
 
     if(wakeUp.value == current_hour) {
         document.getElementById('bottom-picture').style.backgroundImage = "url(./assets/wakeup_image.png)";
         document.getElementById('bottom-picture').innerHTML = "Wake Up !!";
     }
 
-    var lunch = document.getElementById('lunchTimeSelector');
 
-    if(lunch.value == current_hour) {
+    else if(lunch.value == current_hour) {
         document.getElementById('bottom-picture').style.backgroundImage = "url(./assets/lunch_image.png)";
         document.getElementById('bottom-picture').innerHTML = "Let's have some lunch !!";
     }
 
-    var nap = document.getElementById('napTimeSelector');
 
-    if(nap.value == current_hour) {
+    else if(nap.value == current_hour) {
         document.getElementById('bottom-picture').style.backgroundImage = "url(./assets/goodnight_image.png)";
         document.getElementById('bottom-picture').innerHTML = "Good Night !!";
     }
